@@ -1,0 +1,1 @@
+The purpose of this repository is to learn more about Entity Framework
