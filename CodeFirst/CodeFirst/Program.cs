@@ -47,7 +47,8 @@ namespace CodeFirst
             DbSet<Author> Authors { get; set; }
             DbSet<Tag> Tags { get; set; }
 
-            PlutoContext() : base("name=DefaultConnection")
+            public PlutoContext()
+                : base("name=DefaultConnection")
             {
 
             }
